@@ -62,4 +62,4 @@ stages:
         resourceGroup: '$(RESOURCE_GROUP)'
         containerAppEnvironment: '$(CONTAINERAPPS_ENVIRONMENT)'
         targetPort: '3500'
-        ingress: 'external'
+        ingress: 'private'
